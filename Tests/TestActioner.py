@@ -16,7 +16,7 @@ def getbyidentifier():
             if userin == keys:
                 print(val)
     else:
-        for val, keys in objdict.values():
+        for val, keys in objdict.items():
             if userin == val:
                 print(keys)
     Menu.MenuActioner.launchmainmenu()
